@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
+//Make this application a eureka naming server:
 @EnableEurekaServer
 public class NetflixEurekaNamingServerApplication {
 
